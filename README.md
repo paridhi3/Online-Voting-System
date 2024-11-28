@@ -39,7 +39,7 @@ The Online Voting System simplifies the voting process by allowing users to secu
    
 ## 🎨 **Design Pattern**
 <div align="center">
-<img src="C:\Users\PARIDHI\eclipse-workspace\OnlineVotingSystem\src\main\webapp\images\mvc.draw.io" alt="mvc" width="90%" style="border-radius: 16px;"/>
+<img src="C:\Users\PARIDHI\eclipse-workspace\OnlineVotingSystem\src\main\webapp\images\mvc.draw.io.png" alt="mvc" width="90%" style="border-radius: 16px;"/>
 </div>
 
 
