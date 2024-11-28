@@ -36,6 +36,12 @@ The Online Voting System simplifies the voting process by allowing users to secu
    - Vote for their chosen party.
    - Cannot vote more than once.  
    - Must be 18 years or older. 
+   
+## 🎨 **Design Pattern**
+<div align="center">
+<img src="C:\Users\PARIDHI\eclipse-workspace\OnlineVotingSystem\src\main\webapp\images\mvc.draw.io" alt="mvc" width="90%" style="border-radius: 16px;"/>
+</div>
+
 
 ## 🛠 **Technologies/Tools used**
 
