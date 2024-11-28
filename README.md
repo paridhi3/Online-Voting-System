@@ -43,7 +43,7 @@ The Online Voting System simplifies the voting process by allowing users to secu
 - **Frontend**: HTML, CSS, JavaScript  
 - **Database**: MySQL  
 - **Design Pattern**: MVC Architecture  
-- **IDE**: Eclipse IDE
+- **IDE**: Eclipse IDE for Enterprise Java and Web Developers - 24-09
 - **Project Type**: Dynamic Web Project
 
 ## 🛢 **Database Tables**
@@ -82,6 +82,6 @@ The Online Voting System simplifies the voting process by allowing users to secu
   
 #### External System Requirements used in this project:
 1. **[MySQL Connector/J (version 9.1.0) ](src/main/webapp/WEB-INF/lib/mysql-connector-j-9.1.0.jar)**
-2. **[Jakarta Servlet API (version 5.0.0)](src/main/webapp/WEB-INF/lib/jakarta.servlet-api-5.0.0-javadoc.jar)**    
+2. **[Jakarta Servlet API (version 5.0.0) ](src/main/webapp/WEB-INF/lib/jakarta.servlet-api-5.0.0-javadoc.jar)**    
      
      
