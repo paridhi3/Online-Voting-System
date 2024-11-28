@@ -6,11 +6,6 @@ An **Online Voting System** built using Java, JSP, and Servlet, designed to auto
 
 The Online Voting System simplifies the voting process by allowing users to securely cast their votes online. The system displays a login page, parties with their symbols, and options to choose and submit votes anonymously. It stores voter data and vote counts in a MySQL database, ensuring security and reliability. The project follows the MVC design pattern for scalability and maintainability.
 
-## ▶️ Demo
-<div align="center">
-<img src="" alt="Demo video" width="90%" style="border-radius: 16px;"/>
-</div>
-
 ## 🚀 **Objectives**
 
 1. **Ensure Secure Voter Authentication and Registration**: Provide a robust system for voters to log in or register securely.  
@@ -21,6 +16,11 @@ The Online Voting System simplifies the voting process by allowing users to secu
 6. **Follow MVC Architecture**: Adopt a modular MVC design pattern for maintainable and scalable code.  
 7. **Ensure Security**: Implement measures to prevent duplicate voting and maintain data integrity.  
 8. **Provide an Admin Panel**: Facilitate party management and vote monitoring for administrators.
+
+## ▶️ Demo
+<div align="center">
+<img src="" alt="Demo video" width="90%" style="border-radius: 16px;"/>
+</div>
 
 ## 👥 **Roles in the System**
 
