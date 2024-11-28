@@ -20,7 +20,7 @@
       <small><p> To Login as <span class="small">ADMIN</span>, click <a href="adminLogin.jsp">here</a>.</p></small>
       <div class="githublinks">
         <p>
-          View on <a href="https://github.com/paridhi3">GitHub</a>
+          View on <a href="https://github.com/paridhi3/Online-Voting-System">GitHub</a>
         </p>
       </div>
 </div>
