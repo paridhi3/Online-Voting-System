@@ -37,7 +37,16 @@ The Online Voting System simplifies the voting process by allowing users to secu
    - Vote for their chosen party.
    - Cannot vote more than once.  
    - Must be 18 years or older. 
-   
+
+## 🛠 **Technologies/Tools used**
+
+- **Backend**: Java, JSP, Servlet  
+- **Frontend**: HTML, CSS, JavaScript  
+- **Database**: MySQL  
+- **Design Pattern**: MVC Architecture  
+- **IDE**: Eclipse IDE
+- **Project Type**: Dynamic Web Project
+
 ## 🛢 **Database Tables**
 
 1. **Voters**  
@@ -54,15 +63,6 @@ The Online Voting System simplifies the voting process by allowing users to secu
 3. **Admin**  
    - **Username**: Admin username for login.  
    - **Security Key**: A unique security key used for admin authentication.
-
-## 🛠 **Technologies/Tools used**
-
-- **Backend**: Java, JSP, Servlet  
-- **Frontend**: HTML, CSS, JavaScript  
-- **Database**: MySQL  
-- **Design Pattern**: MVC Architecture  
-- **IDE**: Eclipse IDE
-- **Project Type**: Dynamic Web Project
 
 ## ⚙️ **Setup and Installation**
 
