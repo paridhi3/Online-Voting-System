@@ -1,0 +1,338 @@
+/* jpsStyles.css */
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    overflow: auto;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/bg.jpg');
+    background-size: cover; /* or 'contain' based on your preference */
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    z-index: -1; /* Places the background behind the body content */
+    overflow: auto;
+}
+
+
+.container {
+	width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 1, 0.5);
+    background-color: #fff;
+    text-align: center;
+    align-items:center;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #142d4c;
+    margin-bottom: 15px;
+}
+
+.admin-heading, .vote-heading {
+    text-align: center;
+    font-weight: bold;
+    color: #142d4c;
+    margin-bottom: 35px;
+    margin-top: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #142d4c;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    color: #555;
+    font-weight: bold;
+}
+
+/*input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}*/
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    border-width: medium;
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+input:hover {
+    border-color: #142d4c; /* Change border color on hover */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle glowing effect */
+    border-width: medium;
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    cursor: pointer;
+    background-color: #142d4c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #142d4c;
+    transform: scale(1.05);
+}
+
+a {
+    text-decoration: none;
+    color: #142d4c;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/*.welcome-jsp-link a:hover {
+	font-size: 20px;
+	color: #142d4c;
+}*/
+
+.welcome-body {
+	background: white;
+}
+
+.welcome-body::before {
+    content: none;
+}
+
+.welcome {
+	width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.welcome-links {
+	display: flex;
+    text-align: center;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.welcome-links .btn {
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: #142d4c; /* Button background color */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+    padding: 0;
+    width:30%;
+    padding:10px;
+}
+
+.welcome-links .btn:hover {
+    background-color: white; /* Darker color on hover */
+    color: black;
+    border: 1px solid;
+}
+
+.githublinks {
+	margin-top: 50px;
+}
+
+ul {
+	width: 100%;
+}
+
+small {
+	margin: 5px;
+}
+
+small p {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.small {
+	font-weight:bold; 
+	font-size:medium;
+}
+
+hr {
+	width: 80%;
+	margin: auto;
+}
+
+.back-to-home {
+	margin-top: 15px;
+}
+
+.welcome-links .btn.add-party {
+    background: green; /* Correct background color */
+}
+
+.welcome-links .btn.del-party {
+    background: red;
+}
+
+.welcome-links .btn.view-result {
+    background: orange;
+}
+
+
+.welcome-links .btn.add-party:hover {
+    background-color: white; /* White on hover */
+    color: green; /* Text color matching the original background */
+}
+
+.welcome-links .btn.del-party:hover {
+    background-color: white;
+    color: red; /* Text color matching the original background */
+}
+
+.welcome-links .btn.view-result:hover {
+    background-color: white;
+    color: orange; /* Text color matching the original background */
+}
+
+
+
+
+
+.addParty-container {
+	width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 1, 0.5);
+    background-color: white;
+    text-align: center; /* Center the content */
+    overflow: auto;
+    margin-bottom:30px;
+}
+
+.vote-container {
+	width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 1, 0.5);
+    background-color: white;
+    text-align: center; /* Center the content */
+    overflow: auto !important;
+    margin-bottom:30px;
+}
+
+/* Styles for the party list table */
+.party-table {
+    width: 100%;
+    border-collapse: collapse; /* Replaces cellspacing */
+    border: 1px solid #ddd; /* Adds border */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.party-table th, .party-table td {
+    border: 1px solid #ddd;
+    padding: 10px; /* Replaces cellpadding */
+    text-align: center;
+}
+
+.party-table th {
+    background-color: #f2f2f2;
+}
+
+.no-parties {
+    text-align: center;
+}
+
+/* Styles for the add party form */
+.add-party-form {
+    margin-top: 20px;
+}
+
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.form-table td {
+    padding: 10px;
+}
+
+.form-table input[type="number"],
+.form-table input[type="text"],
+.form-table input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.form-table button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-table button:hover {
+    background-color: #45a049;
+}
+
+.delete-button {
+	background: #FF1919;
+	width: 50%;
+}
+
+.addPartyLogout {
+	margin-top:20px;
+	width: 50%;
+	text-align: center;
+}
+
+.admin-logout-btn, .vote-logout-btn {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	background-color: #142d4c;
+}
