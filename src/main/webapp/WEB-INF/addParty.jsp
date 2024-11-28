@@ -3,15 +3,16 @@
 <%@ page import="com.company.dao.Party" %>
 <%@ page import="com.company.dao.PartyDao" %>
 <%@ page import="com.company.dao.PartyDaoImp" %>
+<%@ page import="java.util.Collections" %>
+<%@ page import="java.util.Comparator" %>
 
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add Party</title>
+    <title>Manage Political Parties</title>
     <link rel="stylesheet" href="css/jspStyles.css">
-    
 </head>
 <body>
     <%
@@ -38,12 +39,26 @@
                 </tr>
             </thead>
             <tbody>
-                <%                  
-                	List<Party> partyList = (List<Party>) request.getAttribute("partyList");
+                <% 
+                    // Get the list of parties
+                    List<Party> partyList = (List<Party>) request.getAttribute("partyList");
+                    
+                    // Sort the parties based on vote count in descending order
                     if (partyList != null && !partyList.isEmpty()) {
+                        Collections.sort(partyList, new Comparator<Party>() {
+                            @Override
+                            public int compare(Party p1, Party p2) {
+                                return Integer.compare(p2.getVote_count(), p1.getVote_count());
+                            }
+                        });
+                        
+                        // Highlight the winner (first party in the sorted list)
+                        Party winner = partyList.get(0);
+                        
                         for (Party party : partyList) {
+                            boolean isWinner = party.equals(winner);  // Check if this party is the winner
                 %>
-                <tr>
+                <tr <% if (isWinner) { %> style="background-color: #9EDF9C;" <% } %>>
                     <td><%= party.getParty_id() %></td>
                     <td><%= party.getParty_name() %></td>
                     <td>

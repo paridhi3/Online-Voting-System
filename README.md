@@ -11,16 +11,16 @@ The Online Voting System simplifies the voting process by allowing users to secu
 <img src="" alt="Demo video" width="90%" style="border-radius: 16px;"/>
 </div>
 
-## 🚀 **Features**
+## 🚀 **Objectives**
 
-1. **Voter Authentication/Registration:** Secure login/registration portal for voters.  
-2. **Party Display:** Show participating parties with their unique symbols.
-3. **Voting Process:** Allow voters to select a party and cast votes securely.
-4. **Vote Recording:** Store anonymous votes and voter details in a MySQL database.
-5. **User Interface:** Responsive, user-friendly design using HTML, CSS, Bootstrap and JavaScript.
-6. **MVC Architecture:** Modular code structure for easy maintenance and scalability.
-7. **Security:** Prevent duplicate voting and ensure data integrity.
-8. **Admin Panel:** Manage parties and monitor vote counts.
+1. **Ensure Secure Voter Authentication and Registration**: Provide a robust system for voters to log in or register securely.  
+2. **Display Participating Parties**: Showcase all parties with their unique symbols in an intuitive interface.  
+3. **Enable a Seamless Voting Process**: Allow voters to cast their votes securely and effortlessly.  
+4. **Record Votes Efficiently**: Maintain anonymity while storing voter details and vote counts in a MySQL database.  
+5. **Design an Engaging User Interface**: Develop a responsive and user-friendly UI using HTML, CSS, Bootstrap, and JavaScript.  
+6. **Follow MVC Architecture**: Adopt a modular MVC design pattern for maintainable and scalable code.  
+7. **Ensure Security**: Implement measures to prevent duplicate voting and maintain data integrity.  
+8. **Provide an Admin Panel**: Facilitate party management and vote monitoring for administrators.
 
 ## 👥 **Roles in the System**
 

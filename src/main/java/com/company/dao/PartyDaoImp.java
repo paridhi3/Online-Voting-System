@@ -19,7 +19,7 @@ public class PartyDaoImp implements PartyDao {
 	@Override
 	public List<Party> getAllParties() {
         List<Party> partyList = new ArrayList<>();
-        String query = "SELECT * FROM party ORDER BY vote_count DESC"; 
+        String query = "SELECT * FROM party"; 
 
         try (
         		Connection connection = DBUtil.getConnection();
