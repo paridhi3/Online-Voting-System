@@ -115,7 +115,6 @@
         }
     %>
     
-    <p class="back-to-home"><a href="index.jsp">Back to Home</a></p>
     <p class="addPartyLogout">
         If you are finished, don't forget to <b>LOGOUT</b> using the button below to ensure the security of your session.
     </p>

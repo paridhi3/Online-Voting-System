@@ -13,15 +13,14 @@ The Online Voting System simplifies the voting process by allowing users to secu
 
 ## 🚀 **Features**
 
-1. **User Authentication:** Secure login portal.  
+1. **Voter Authentication/Registration:** Secure login/registration portal for voters.  
 2. **Party Display:** Show participating parties with their unique symbols.
-3. **Voting Process:** Allow users to select a party and cast votes securely.
+3. **Voting Process:** Allow voters to select a party and cast votes securely.
 4. **Vote Recording:** Store anonymous votes and voter details in a MySQL database.
-5. **Result Calculation:** Automatically count votes and declare the winning party.
-6. **User Interface:** Responsive, user-friendly design using HTML, CSS, and Bootstrap.
-7. **MVC Architecture:** Modular code structure for easy maintenance and scalability.
-8. **Security:** Prevent duplicate voting and ensure data integrity.
-9. **Admin Panel:** Manage parties and monitor vote counts.
+5. **User Interface:** Responsive, user-friendly design using HTML, CSS, Bootstrap and JavaScript.
+6. **MVC Architecture:** Modular code structure for easy maintenance and scalability.
+7. **Security:** Prevent duplicate voting and ensure data integrity.
+8. **Admin Panel:** Manage parties and monitor vote counts.
 
 ## 👥 **Roles in the System**
 

@@ -112,7 +112,7 @@ button {
     background-color: #142d4c;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 5px !important;
     font-size: 16px;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
