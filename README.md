@@ -29,7 +29,7 @@ The Online Voting System simplifies the voting process by allowing users to secu
 
 ## ▶️ Demo
 <div align="center">
-<img src="" alt="Demo video" width="90%" style="border-radius: 16px;"/>
+<img src="src/main/webapp/images/demo.mp4" alt="Demo video" width="90%" style="border-radius: 16px;"/>
 </div>
 
 ## 🛠 **Technologies/Tools used**
