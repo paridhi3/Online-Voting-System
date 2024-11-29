@@ -2,6 +2,16 @@
 
 An **Online Voting System** built using Java, JSP, and Servlet, designed to automate the voting process. This system ensures secure, anonymous voting while providing a user-friendly interface and efficient vote management.
 
+## 📋 Table of Contents  
+1. [📄 Abstract](#-abstract)  
+2. [🚀 Objectives](#-objectives)  
+3. [▶️ Demo](#-demo)
+4. [🛠 Technologies/Tools used](#-technologiestools-used)  
+5. [👥 Roles in the System](#-roles-in-the-system)  
+6. [🛢 Database Tables](#-database-tables) 
+7. [🎨 Project Architecture](#-design-pattern)     
+8. [⚙️ Setup and Installation](#️-setup-and-installation)
+
 ## 📄 **Abstract**
 
 The Online Voting System simplifies the voting process by allowing users to securely cast their votes online. The system displays a login page, parties with their symbols, and options to choose and submit votes anonymously. It stores voter data and vote counts in a MySQL database, ensuring security and reliability. The project follows the MVC design pattern for scalability and maintainability.
@@ -22,6 +32,15 @@ The Online Voting System simplifies the voting process by allowing users to secu
 <img src="" alt="Demo video" width="90%" style="border-radius: 16px;"/>
 </div>
 
+## 🛠 **Technologies/Tools used**
+
+- **Backend**: Java, JSP, Servlet  
+- **Frontend**: HTML, CSS, JavaScript  
+- **Database**: MySQL  
+- **Design Pattern**: MVC Architecture  
+- **IDE**: Eclipse IDE for Enterprise Java and Web Developers - 24-09
+- **Project Type**: Dynamic Web Project
+
 ## 👥 **Roles in the System**
 
 1. **Admin:**  
@@ -37,21 +56,6 @@ The Online Voting System simplifies the voting process by allowing users to secu
    - Cannot vote more than once.  
    - Must be 18 years or older. 
    
-## 🎨 **Design Pattern**
-<div align="center">
-<img src="src/main/webapp/images/mvc.drawio.png" alt="mvc" width="90%" style="border-radius: 16px;"/>
-</div>
-
-
-## 🛠 **Technologies/Tools used**
-
-- **Backend**: Java, JSP, Servlet  
-- **Frontend**: HTML, CSS, JavaScript  
-- **Database**: MySQL  
-- **Design Pattern**: MVC Architecture  
-- **IDE**: Eclipse IDE for Enterprise Java and Web Developers - 24-09
-- **Project Type**: Dynamic Web Project
-
 ## 🛢 **Database Tables**
 
 1. **Voters**  
@@ -67,7 +71,12 @@ The Online Voting System simplifies the voting process by allowing users to secu
 
 3. **Admin**  
    - **Username**: Admin username for login.  
-   - **Security Key**: A unique security key used for admin authentication.
+   - **Security Key**: A unique security key used for admin authentication.   
+   
+## 🎨 **Project Architecture**
+<div align="center">
+<img src="src/main/webapp/images/mvc.drawio.png" alt="mvc" width="90%" style="border-radius: 16px;"/>
+</div>
 
 ## ⚙️ **Setup and Installation**
 
